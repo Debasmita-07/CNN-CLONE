@@ -1,0 +1,137 @@
+@media  screen and (max-width: 1350px) {
+    .menu{
+        display: block;
+    }
+    .list ul{
+        flex-direction: column;
+        width: 35vw;
+        position: fixed;
+        left: -100%;
+        background-color: white;
+        z-index: 1;
+        top: 0;
+        padding: 0 32px 32px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        font-size: 15px;
+        transition: all 0.3s ease-in-out;
+        height: 100vh;
+        
+    }
+    .explore{
+        display: block;
+    }
+    .list ul li{
+        margin: 15px 0 ;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgb(199, 198, 198);
+        display: flex;
+        justify-content: space-between;
+    }
+    .menuHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 0;
+    
+}
+    .right ul{
+        display: none;
+    }
+    .headline{
+        margin-bottom: 10px;
+    }
+    .heading h1{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 1135px){
+    .heading h1{
+        font-size: 2rem;
+    }
+    .sub-article{
+        grid-template-columns: 1fr 1fr;
+    }
+    .shorts-view{
+        overflow: auto;
+    }
+    .shorts-view .allimage img{
+        width: 24vw;
+    }
+}
+@media screen and (max-width: 924px){
+    .heading h1{
+        font-size: 1.7rem;
+    }
+    .news{
+        margin: 10px 0 30px 0;
+        gap: 23px;
+    }
+    .headline{
+        display: none;
+    }
+    .plus{
+        grid-template-columns: 1fr 1fr;
+    }
+    .plus.down{
+        grid-template-columns: 1.5fr 2fr;
+    }
+    .shorts-view .allimage img {
+        width: 28vw;
+    }
+}
+@media screen and (max-width: 764px){
+    .heading h1{
+        font-size: 1.4rem;
+    }
+    .sub-article{
+        grid-template-columns: 1fr;
+    }
+    .article-section{
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .shorts-view .allimage img {
+        width: 37vw;
+    }
+}
+@media screen and (max-width: 412px){
+    .footer-menu{
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: 10px;
+    }
+    .footer-menu div ul{
+        display: none;
+    }
+    .shorts-view .allimage img {
+        width: 73vw;
+    }
+    .entertain{
+        grid-template-columns: 1fr;
+    }
+    .level{
+        grid-template-columns: 1fr;
+    }
+    .news{
+        grid-template-columns: 1fr;
+    }
+    .article-section{
+        grid-template-columns: 1fr;
+    }
+    .button{
+        width: 17vw;
+    }
+    .top{
+        grid-row: 1;
+    }
+    .list-end.banner{
+        flex-direction: column;
+    }
+    .list-end{
+        justify-items: center;
+        justify-content: center;
+    }
+    .downloads{
+        border-left: 0;
+        padding-left: 0;
+    }
+}

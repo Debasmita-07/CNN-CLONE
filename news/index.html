@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking News, Latest News</title>
+    <link rel="shortcut icon" href="assets/logo/Unknown.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <script src="https://kit.fontawesome.com/124b221006.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style/media_query.css">
+</head>
+
+<body>
+    <!-- navigation -->
+    <header class="container-wraper">
+        <div class="container">
+            <nav>
+                <section class="nav">
+                    <section class="first">
+                        <div class="menu" onclick="openMenu()"><i class="fa-solid fa-bars"></i></div>
+                        <img src="assets/logo/png-clipart-logo-cnn-brand-trademark-logo-cnn-removebg-preview.png"
+                            alt="logo">
+                        <div class="list left">
+                            <ul class="mymenu">
+                                <div class="menuHeader">
+                                    <h4>CNN</h4>
+                                    <span class="closeMenu" onclick="closeNav()"><i class="fa-solid fa-x"></i></span>
+                                </div>
+                                
+                                <li onclick="closeNav()"><a href="#us">US</a> <span class="explore" onclick="closeNav()"><i class="fa-solid fa-angle-right"></i></span></li>
+                                <li>World <span class="explore"><i class="fa-solid fa-angle-right"></i></span></li>
+                                <li>Politics <span class="explore"><i class="fa-solid fa-angle-right"></i></span></li>
+                                <li>Business <span class="explore"><i class="fa-solid fa-angle-right"></i></span></li>
+                                <li>Health <span class="explore"><i class="fa-solid fa-angle-right"></i></span></li>
+                                <li>Entertainment <span class="explore"><i class="fa-solid fa-angle-right"></i></span></li>
+                                <li>Style <span class="explore"><i class="fa-solid fa-angle-right"></i></span></li>
+                                <li onclick="closeNav()"><a href="#travel">Travel</a> <span class="explore" ><i class="fa-solid fa-angle-right"></i></span></li>
+                                <li>Sports <span class="explore"><i class="fa-solid fa-angle-right"></i></span></li>
+                                <li>Science <span class="explore"><i class="fa-solid fa-angle-right"></i></span></li>
+                                <li>More <span class="explore"><i class="fa-solid fa-angle-right"></i></span></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="second">
+                        <div class="list right">
+                            <ul>
+                                <div class="watch">
+                                    <i class="fa fa-solid fa-circle"></i>
+                                    <li>Watch</li>
+                                </div>
+                                <div class="listen">
+                                    <i class="fa fa-regular fa-headphones"></i>
+                                    <li>Listen</li>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="search" ><i class="fa fa-solid fa-magnifying-glass" title="Search"></i></div>
+                        <div class="sign">
+                            <button class="button">Sign in</button>
+                        </div>
+                    </section>
+                </section>
+            </nav>
+        </div>
+    </header>
+    <!-- news content -->
+    <section class="container-wraper topSection">
+        <div class="bodycontainer"></div>
+    </section>
+    <!-- headlines banner -->
+    <section class="container-wraper">
+        <div class="container">
+            <div class="headline">
+                <p>NASA postpones spacewalk</p>
+                <p>US tried to acquire Greenland before</p>
+                <p>Should you get a flu shot?</p>
+                <p>Socotra island</p>
+                <p>Prehistoric hunting strategies</p>
+                <p class="last">Manchester United's future</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-wraper">
+        <div class="container">
+            <div class="news">
+                <div><!-- first grid -->
+                    <div class="news-image">
+                        <div class="newsbox">
+                            <div class="allimage">
+                                <img src="assets/logo/img1-grid1.png" alt="">
+                                <h4>Witness to ICE agents: 'You shot
+                                    her in the f**king face'</h4>
+                            </div>
+
+                            <div class="allimage">
+                                <img src="assets/logo/img2-grid1.png" alt="">
+                                <h4>What we know about US seizure
+                                    of a Russian-flagged oil tanker</h4>
+                            </div>
+
+                            <div class="line first">
+                                <p>Analysis: Trump scored a win with his
+                                    raid on Venezuela. But the US is now
+                                    responsible for the country's future</p>
+                            </div>
+                            <div class="line">
+                                <p>Who is Diosdado Cabello, the powerful
+                                    Venezuelan minister who may be in
+                                    jeopardy next?</p>
+                            </div>
+                            <div class="line">
+                                <p>Trump officials scramble to sell
+                                    skeptical lawmakers, oil executives on
+                                    Venezuela plan</p>
+                                <p>Trump administration outlines demands
+                                    for Venezuela <i class="fa-regular fa-circle-play"></i> 0:56</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- middle grid -->
+                <div class="top">
+                    <div class="heading" id="us">
+                        <h1>Woman shot and killed by <br>
+                            ICE agent in Minneapolis</h1>
+                        <div class="livephoto">
+                            <img src="assets/logo/img1-grid2.png" alt="">
+                            <div class="live">
+                            <img src="assets/logo/pngtree-icon-live-streaming-vector-png-image_4643886.png-removebg-preview.png"
+                                alt="">
+                        </div>
+                        </div>
+                        <h4>US Homeland Security Secretary Kristi Noem says ICE agent was
+                            justified in shooting after mayor disputes DHS account</h4>
+                    </div>
+                    <div class="article">
+                        <p>What we know about the woman killed in the Minneapolis ICE shooting</p>
+                        <p><b>Analysis:</b> DHS said a woman attempted to run over ICE officers before being shot
+                            in Minneapolis. What videos show</p>
+                    </div>
+                    <div class="article-section">
+                        <div>
+                            <div class="allimage">
+                                <img src="assets/logo/i1-grid2.png" alt="">
+                                <p>Multiple angles show
+                                    Minnesota ICE shooting</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="allimage">
+                                <img src="assets/logo/i2-grid2.png" alt="">
+                                <p>Another violent death in
+                                    Minneapolis lays bare the
+                                    nation's fractured politics</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="allimage">
+                                <img src="assets/logo/i3-grid2.png" alt="">
+                                <p>Noem claims shooting
+                                    was result of 'act of
+                                    domestic terrorism';
+                                    police chief responds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!-- grid third -->
+                    <div class="news-image">
+                        <div class="newsbox">
+
+                            <div class="allimage">
+                                <img src="assets/logo/img1-grid3.png" alt="">
+                                <h4>Catch up on today's global news</h4>
+
+                            </div>
+
+                            <div class="allimage">
+                                <img src="assets/logo/img2-grid3.png" alt="">
+                                <h4>That digital pet you had as a kid?
+                                    It has a new owner</h4>
+                            </div>
+
+                            <div>
+                                <div class="line">
+                                    <div class="sub-article">
+                                        <div class="allimage">
+                                            <img src="assets/logo/img1.png" alt="">
+                                        </div>
+                                        <div>
+                                            <p>Birth of rare mountain
+                                                gorilla twins recorded
+                                                in Congo park</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="sub-article">
+                                        <div class="allimage">
+                                            <img src="assets/logo/img2.png" alt="">
+                                        </div>
+                                        <div>
+                                            <p>Common food
+                                                preservatives linked
+                                                to cancer and type 2
+                                                diabetes</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="sub-article">
+                                        <div class="allimage">
+                                            <img src="assets/logo/img3.png" alt="">
+                                        </div>
+                                        <div>
+                                            <p>Meet the first flock of
+                                                gay sheep <i class="fa-regular fa-circle-play"></i> 1:47</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="sub-article">
+                                        <div class="allimage">
+                                            <img src="assets/logo/img4.png" alt="">
+                                        </div>
+                                        <div>
+                                            <p>Fossils unearthed in
+                                                Morocco shed light
+                                                on mysterious human
+                                                ancestor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-wraper">
+        <div class="container">
+            <div class="news">
+                <div class="newsbox">
+                    <div class="stories">
+                        <h4>MORE TOP STORIES</h4>
+                    </div>
+                    <div class="allimage">
+                        <img src="assets/logo/story1.png" alt="">
+                        <h4>Elon Musk's xAl under fire for
+                            failing to rein in 'digital
+                            undressing'</h4>
+
+                    </div>
+                    <div class="line first">
+                        <p>Trump moves to pull US out of bedrock
+                            global climate treaty, becoming first
+                            country to do so</p>
+                    </div>
+                    <div class="line">
+                        <p>Alleged cybercrime kingpin arrested
+                            and extradited to China, Cambodia says </p>
+                    </div>
+                    <div class="line">
+                        <p>The US has tried to acquire Greenland
+                            before - and failed</p>
+                    </div>
+                    <div class="line">
+                        <p>China faces new reality in 'US
+                            backyard' <i class="fa-regular fa-circle-play"></i> 1:01</p>
+                    </div>
+                    <div class="line">
+                        <p>NASA says 'situation is stable' as it
+                            halts spacewalk over medical issue</p>
+                    </div>
+                    <div class="line">
+                        <p>Iran watches nervously as a fellow anti-
+                            US regime falters</p>
+                    </div>
+
+                </div>
+                <div class="middlebox">
+                    <div class="stories">
+                        <h4 id="travel">TRAVEL & BEYOND</h4>
+                    </div>
+                    <div class="allimage text">
+                        <img src="assets/logo/story1.png" alt="">
+                        <div class="textline">
+                            <h4>The growing tourist destination on the edge of Europe that
+                                the US warns travelers about</h4>
+                        </div>
+                    </div>
+                    <div class="middlegrid">
+                        <div class="plus one">
+                            <div class="allimage">
+                                <img src="assets/logo/plus1.png" alt="">
+                            </div>
+                            <p>Everyone is talking about Greenland. Here's what it's like to visit</p>
+                        </div>
+                        <div class="plus">
+                            <div class="allimage">
+                                <img src="assets/logo/plus2.png" alt="">
+                            </div>
+                            <p>This island is popular with travel influencers. Tourists are stuck there
+                                <i class="fa-regular fa-circle-play"></i> 1:40
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="adnews">
+                    <div class="newsbox">
+
+                        <div class="ad"></div>
+                        <div class="stories">
+                            <h4>RUSSIA'S WAR IN UKRAINE</h4>
+                        </div>
+                        <div class="allimage">
+                            <img src="assets/logo/russia.png" alt="">
+                            <h4>UK and France agree to send troops to Ukraine in event
+                                of peace deal with Russia
+                            </h4>
+                        </div>
+                        <div class="line">
+                            <div class="sub-article">
+                                <div class="allimage">
+                                    <img src="assets/logo/img5.png" alt="">
+                                </div>
+                                <div>
+                                    <p>Life during blackouts in Ukraine
+                                        <i class="fa-regular fa-circle-play"></i> 0:57
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-wraper">
+        <div class="container">
+            <div class="level">
+                <div>
+                    <div class="stories">
+                        <h4>SCIENCE & DISCOVERY</h4>
+                    </div>
+                    <div class="allimage">
+                        <img src="assets/logo/science.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="stories">
+                        <h4>ART & STYLE</h4>
+                    </div>
+                    <div class="allimage">
+                        <img src="assets/logo/art1.png" alt="">
+                        <h4>How this retiree is trying to bring typewriters back</h4>
+
+                    </div>
+                    <div class="allimage">
+                        <img src="assets/logo/art2.png" alt="">
+                        <h4>Plans for $2.3 billion stadium ignite debate in 2032 Olympics city</h4>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-wraper">
+        <div class="container">
+            <div class="entertain">
+                <div>
+                    <div class="stories">
+                        <h4>CLIMATE & EXTREME WEATHER</h4>
+                    </div>
+                    <div class="allimage">
+                        <img src="assets/logo/climate.png" alt="">
+                        <h4>What happens to the planet if Trump gets his
+                            hands on all of Venezuela's oil?</h4>
+
+                    </div>
+                    <div class="plus down">
+                        <div class="allimage">
+                            <img src="assets/logo/enter1.png" alt="">
+                        </div>
+                        <p>Chevy Chase claims he's not a great actor but his success wasn't an accident <i
+                                class="fa-regular fa-circle-play"></i> 1:00
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="stories">
+                        <h4>HEALTH & WELLNESS</h4>
+                    </div>
+                    <div class="allimage">
+                        <img src="assets/logo/health.png" alt="">
+                        <h4>New US dietary guidelines urge less sugar,
+                            more protein - and make a nod to beef tallow</h4>
+                    </div>
+                    <div class="plus down">
+                        <div class="allimage">
+                            <img src="assets/logo/enter2.png" alt="">
+                        </div>
+                        <p>When will Manchester United finally get it right?
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="stories">
+                        <h4>AFRICA IN FOCUS</h4>
+                    </div>
+                    <div class="allimage">
+                        <img src="assets/logo/africa.png" alt="">
+                        <h4>This company wants to make hydrogen from
+                            one of Africa's most common fuels</h4>
+
+                    </div>
+                    <div class="plus down">
+                        <div class="allimage">
+                            <img src="assets/logo/enter3.png" alt="">
+                        </div>
+                        <p>Nick Reiner's arraignment delayed
+                            after high-profile attorney asks to be removed
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-wraper">
+        <div class="container">
+            <div class="shorts">
+                <h2>CNN Shorts</h2>
+                <div class="shorts-view">
+                    <div class="allimage text">
+                        <img src="assets/logo/img1-grid1.png" alt="">
+                        <div class="textline arrange">
+                            <h4>'She was peaceful': Witness on ICE fatal shooting in...</h4>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="allimage text">
+                            <img src="assets/logo/climate.png" alt="">
+                            <div class="textline arrange">
+                                <h4>Ex-FBI agent breaks down
+                                    Minnesota shooting video</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="allimage text">
+                            <img src="assets/logo/art1.png" alt="">
+                            <div class="textline arrange">
+                                <h4>China faces new reality in 'US
+                                    backyard'</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="allimage text">
+                            <img src="assets/logo/art2.png" alt="">
+                            <div class="textline arrange">
+                                <h4>Trump administration outlines demands for Venezuela</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="allimage text">
+                            <img src="assets/logo/img1-grid2.png" alt="">
+                            <div class="textline arrange">
+                                <h4>At least 100 dead in US attack: Venezuelan official</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-wraper">
+        <div class="container">
+            <div class="searchbar">
+                <input type="text" placeholder="Search CNN...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="footer-menu">
+                <div>
+                    <h4>World</h4>
+                    <ul>
+                        <li>Africa</li>
+                        <li>Americas</li>
+                        <li>Asia</li>
+                        <li>Australia</li>
+                        <li>China</li>
+                        <li>Europe</li>
+                        <li>India</li>
+                        <li>Middle East</li>
+                        <li>United Kingdom</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>US Politics</h4>
+                    <ul>
+                        <li>Trump</li>
+                        <li>Facts First</li>
+                        <li>CNN Polls</li>
+                        <li>2025 Elections</li>
+                        <li>Redistricting Tracker</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Business</h4>
+                    <ul>
+                        <li>Tech</li>
+                        <li>Media</li>
+                        <li>Calculators</li>
+                        <li>Videos</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Markets</h4>
+                    <ul>
+                        <li>Pre-markets</li>
+                        <li>After-Hours</li>
+                        <li>Fear & Greed</li>
+                        <li>Investing</li>
+                        <li>Markets Now</li>
+                        <li>Nightcap</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Health</h4>
+                    <ul>
+                        <li>Life, But Better</li>
+                        <li>Fitness</li>
+                        <li>Food</li>
+                        <li>Sleep</li>
+                        <li>China</li>
+                        <li>Mindfulness</li>
+                        <li>Relationships</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Entertainment</h4>
+                    <ul>
+                        <li>Movies</li>
+                        <li>Television</li>
+                        <li>Celebrity</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Tech</h4>
+                    <ul>
+                        <li>Innovate</li>
+                        <li>Foreseeable Future</li>
+                        <li>Mission: Ahead</li>
+                        <li>Work Transformed</li>
+                        <li>Innovative Cities</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Travel</h4>
+                    <ul>
+                        <li>Africa</li>
+                        <li>Americas</li>
+                        <li>Asia</li>
+                        <li>Australia</li>
+                        <li>China</li>
+                        <li>Europe</li>
+                        <li>India</li>
+                        <li>Middle East</li>
+                        <li>United Kingdom</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Sports</h4>
+                    <ul>
+                        <li>Trump</li>
+                        <li>Facts First</li>
+                        <li>CNN Polls</li>
+                        <li>2025 Elections</li>
+                        <li>Redistricting Tracker</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Science</h4>
+                    <ul>
+                        <li>Tech</li>
+                        <li>Media</li>
+                        <li>Calculators</li>
+                        <li>Videos</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Climate</h4>
+                    <ul>
+                        <li>Pre-markets</li>
+                        <li>After-Hours</li>
+                        <li>Fear & Greed</li>
+                        <li>Investing</li>
+                        <li>Markets Now</li>
+                        <li>Nightcap</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Weather</h4>
+                    <ul>
+                        <li>Life, But Better</li>
+                        <li>Fitness</li>
+                        <li>Food</li>
+                        <li>Sleep</li>
+                        <li>China</li>
+                        <li>Mindfulness</li>
+                        <li>Relationships</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Ukraine-Russia War</h4>
+                    <ul>
+                        <li>Movies</li>
+                        <li>Television</li>
+                        <li>Celebrity</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-end">
+                <div class="logo">
+                    <img src="assets/logo/end-logo.png" alt="">
+                </div>
+                <div class="list-end">
+                    <ul>
+                        <li>Watch</li>
+                        <li>Listen</li>
+                        <li>Live TV</li>
+                    </ul>
+                    <div class="sign">
+                            <button class="button">Sign in</button>
+                        </div>
+                </div>
+                <div class="list-end banner">
+                    <div class="brands">
+                        <h5>FOLLOW CNN</h5>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="downloads">
+                        <h5>DOWNLOAD THE CNN APP</h5>
+                        <div class="google-play">
+                            <img src="assets/logo/play-store.png" alt="">
+                        </div>
+                        <div class="app-store">
+                            <img src="assets/logo/images-2-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="menu.js"></script>
+</body>
+
+</html>
