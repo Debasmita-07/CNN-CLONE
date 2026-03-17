@@ -5,3 +5,7 @@ The webpage is built using HTML5 for structure and CSS3 for styling, along with 
 This project helped in understanding how professional news websites organize content, manage layouts, and present information effectively. It also strengthens skills in responsive design, positioning, and component structuring.
 To run this project locally, simply clone the repository, navigate to the project folder, and open the index.html file in any web browser. No additional setup or dependencies are required.
 This project is created purely for educational purposes. All design inspiration, content, and trademarks belong to CNN. Future improvements may include adding dynamic content using APIs, enhancing accessibility, and introducing animations or additional features for a better user experience.
+
+## 🔗 Live Demo
+
+[Click here to view the project](https://debasmita-cnn-dummy.netlify.app)
